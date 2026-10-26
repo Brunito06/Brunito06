@@ -12,7 +12,7 @@
 
 ### Sobre mí
 
-Estudio **Negocios Digitales** en la Universidad de Montevideo y trabajo como freelance haciendo **webs, sistemas internos y asistentes con IA** para empresas uruguayas. Me gusta lo prolijo: rápido, accesible y que el cliente lo pueda editar solo.
+Estudio Negocios Digitales en la UM y desde hace un tiempo hago webs y sistemas para empresas uruguayas. Lo que más me gusta es agarrar algo que hoy se hace a mano o en un Excel y convertirlo en algo que funcione solo.
 
 <sub>🇬🇧 Digital Business student in Montevideo, building websites, internal tools and AI assistants for small businesses.</sub>
 
@@ -30,9 +30,20 @@ Mis proyectos están en [brunojorba.com/es/proyectos →](https://brunojorba.com
 
 ### Contacto
 
-[![brunojorba.com](https://img.shields.io/badge/brunojorba.com-3F4FF0?style=for-the-badge&logo=googlechrome&logoColor=white)](https://brunojorba.com)
-[![Mail](https://img.shields.io/badge/contact@brunojorba.com-3F4FF0?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:contact@brunojorba.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-3F4FF0?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bruno-jorba-cabrera-a93760173)
+<p>
+  <a href="https://brunojorba.com"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/contact-web-dark.svg">
+    <img src="assets/contact-web-light.svg" alt="brunojorba.com" height="40">
+  </picture></a>
+  <a href="mailto:contact@brunojorba.com"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/contact-mail-dark.svg">
+    <img src="assets/contact-mail-light.svg" alt="contact@brunojorba.com" height="40">
+  </picture></a>
+  <a href="https://www.linkedin.com/in/bruno-jorba-cabrera-a93760173"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/contact-linkedin-dark.svg">
+    <img src="assets/contact-linkedin-light.svg" alt="LinkedIn" height="40">
+  </picture></a>
+</p>
 
 <br>
 

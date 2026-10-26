@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="168" height="40" viewBox="0 0 168 40" role="img" aria-label="brunojorba.com">
+<rect x=".5" y=".5" width="167" height="39" rx="19.5" fill="#F4F4F2" stroke="#DEDED9"/>
+<g fill="none" stroke="#3F4FF0" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="24" cy="20" r="8"/><ellipse cx="24" cy="20" rx="3.4" ry="8"/><path d="M16 20h16M17.2 15.8h13.6M17.2 24.2h13.6"/></g>
+<text x="42" y="25.5" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#151517" textLength="108" lengthAdjust="spacingAndGlyphs">brunojorba.com</text>
+</svg>
