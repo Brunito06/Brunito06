@@ -26,7 +26,7 @@ Estudio Negocios Digitales en la UM y desde hace un tiempo hago webs y sistemas 
 ![Claude](https://img.shields.io/badge/Claude_API-1f1f24?style=flat-square&logo=claude&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-1f1f24?style=flat-square&logo=playwright&logoColor=white)
 
-Mis proyectos están en [brunojorba.com/es/proyectos →](https://brunojorba.com/es/proyectos)
+Algunos de mis proyectos están en [brunojorba.com/es/proyectos →](https://brunojorba.com/es/proyectos)
 
 ### Contacto
 
