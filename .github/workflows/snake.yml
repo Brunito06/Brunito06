@@ -1,4 +1,4 @@
-name: Serpiente de contribuciones
+name: Serpiente y ciudad de contribuciones
 
 on:
   schedule:
@@ -15,6 +15,27 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
+      - uses: actions/checkout@v4
+
+      - name: Consultar contribuciones
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api graphql -f query='query { user(login:"Brunito06") { contributionsCollection { contributionCalendar { weeks { contributionDays { date contributionCount weekday } } } } } }' > contrib.json
+          days=$(jq '[.data.user.contributionsCollection.contributionCalendar.weeks[]?.contributionDays[]?] | length' contrib.json)
+          if [ -z "$days" ] || [ "$days" -eq 0 ]; then
+            echo "::error::La API de GitHub no devolvió contribuciones; no se publica una ciudad vacía."
+            cat contrib.json
+            exit 1
+          fi
+          echo "Días recibidos: $days"
+
+      - name: Generar ciudad
+        run: |
+          mkdir -p dist
+          node scripts/ciudad.mjs dist/ciudad.svg contrib.json Brunito06
+          test -s dist/ciudad.svg
+
       - uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}

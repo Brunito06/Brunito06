@@ -47,7 +47,4 @@ Algunos de mis proyectos están en [brunojorba.com/es/proyectos →](https://bru
 
 <br>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Brunito06/Brunito06/output/snake-dark.svg">
-  <img src="https://raw.githubusercontent.com/Brunito06/Brunito06/output/snake-light.svg" alt="Contribuciones de Bruno, comidas por una serpiente" width="100%">
-</picture>
+<img src="https://raw.githubusercontent.com/Brunito06/Brunito06/output/ciudad.svg" alt="Ciudad de commits: cada edificio es un día de mi último año en GitHub" width="100%">
