@@ -49,3 +49,4 @@ Algunos de mis proyectos están en [brunojorba.com/es/proyectos →](https://bru
 
 <img src="https://raw.githubusercontent.com/Brunito06/Brunito06/output/ciudad.svg" alt="Ciudad de commits: cada edificio es un día de mi último año en GitHub" width="100%">
 
+
